@@ -1,0 +1,17 @@
+# File path to the metadata for the comparisons to read from
+sampleCSVpath: /SAN/vyplab/alb_projects/data/tdp_ko_collection/invitro_majiq/all_kd_majiq.csv
+
+# Directory of Salmon quantifications
+salmon_quants: /SAN/vyplab/alb_projects/data/tdp_ko_collection/salmon_pulled 
+
+# GTF used for alignment
+gtf: /SAN/vyplab/vyplab_reference_genomes/annotation/human/GRCh38/gencode.v40.annotation.gtf 
+
+# Directory of deseq2 comparisons 
+salmon_quants: /SAN/vyplab/alb_projects/data/tdp_ko_collection/deseq2_salmon
+
+# Be sure to update config/cluster.yaml to reflect this
+threads: 4
+
+# Name of subdirectory of out_dir to store log/stderr files for each rule
+logs_dir: single_steps_logs/
